@@ -1,0 +1,25 @@
+{
+  "folders": [
+    {
+      "path": "..",
+      "folder_exclude_patterns": [
+        "*.sublproj",
+        "bitters",
+        "bourbon",
+        "neat",
+        "normalize",
+        "images",
+        "converted-html",
+        ".cache",
+        "output"
+      ],
+      "file_exclude_patterns": [
+        ".keep",
+        "normalize.scss",
+        "favicon.ico",
+        "package.png",
+        "_sitemap.json"
+      ]
+    }
+  ]
+}

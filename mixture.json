@@ -1,0 +1,21 @@
+{
+  "debug": false,
+  "domain": null,
+  "lintScripts": false,
+  "modelSource": null,
+  "preprocessorLocations": "assets",
+  "preprocessorScriptOutput": "output/assets/javascripts",
+  "preprocessorStyleOutput": "output/assets/stylesheets",
+  "projectDescription": "This is the sweetest initial project structure (a.k.a. boilerplate) for Mixture that includes Normalize.css, Bourbon, Bourbon Neat and Bitters.",
+  "projectName": "exalted",
+  "publishedId": null,
+  "serverHostname": null,
+  "serverPort": null,
+  "simpleModePartnerServer": null,
+  "sitemap": true,
+  "templateDefaultLayout": "layout",
+  "templateDefaultPage": "index",
+  "templateDirectory": "views",
+  "type": "mixture",
+  "useCompass": false
+}

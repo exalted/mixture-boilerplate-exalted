@@ -1,0 +1,30 @@
+<!doctype html>
+
+<html lang="en">
+
+    <head>
+
+        <title>{% block title %}{% endblock %}</title>
+
+        <link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
+
+        <!-- Styles -->
+        {{ "application.css" | asset_url | stylesheet_tag }}
+        {% block styles %}{% endblock %}
+
+    </head>
+
+    <body>
+
+        <!-- Page Contents -->
+        <div class="container">
+            {% block content %}{% endblock %}
+        </div>
+
+        <!-- Scripts -->
+        {% block scripts %}{% endblock %}
+        {{ "application.js" | asset_url | script_tag }}
+
+    </body>
+
+</html>
