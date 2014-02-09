@@ -4,7 +4,7 @@
 
 # Ignore GitHub settings file (each developer should have a separate local
 # copy of it)
-/.githubsettings*
+/.githubsettings
 
 # Statically compiled web site
 /converted-html/
