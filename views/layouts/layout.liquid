@@ -22,8 +22,8 @@
         </div>
 
         <!-- Scripts -->
-        {% block scripts %}{% endblock %}
         {{ "application.js" | asset_url | script_tag }}
+        {% block scripts %}{% endblock %}
 
     </body>
 
